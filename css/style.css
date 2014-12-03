@@ -2,4 +2,120 @@
 
 body{
   font-family:"Libre Baskerville", 'Garamond', serif;
+  font-size:16px;
+}
+
+header p{
+  text-align:center;
+  margin:10px 0 5px 0;
+}
+
+hr{
+  margin-top:0px;
+  border-top: 1px solid black;
+}
+
+pre{
+  margin-top:20px;
+  margin-bottom:0px;
+  display: block;
+  padding: 0px;
+  background:white;
+  border:0px;
+  word-break: break-all;
+  word-wrap: break-word;
+  font-family:"Libre Baskerville", 'Garamond', serif;
+}
+
+
+.img-responsive{
+  margin: 0 auto;
+}
+article#description{
+  margin:20px auto 50px auto;
+  text-align:justify;
+}
+
+article#description p{
+  line-height:1.65em;
+}
+
+#links{
+  text-align:center;
+}
+
+.purchase-links{
+  display:block;
+  margin-bottom:50px;
+}
+
+h2{
+  margin-bottom:20px;
+  text-decoration:underline;
+}
+.a-link{
+  text-align:center;
+ 
+}
+
+.a-link a{
+  display:block;
+   height:80px;
+}
+
+.a-link img{
+  margin: 0 auto;
+  height:80px;
+  padding:10px;
+  display:block;
+}
+
+.a-link p{
+
+  clear:both;
+  font-size:0.8em;
+}
+
+#contact hr{
+  margin-bottom:5px;
+}
+#contact p{
+  margin-bottom:5px;
+}
+
+#contact{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+@media (min-width: 768px) { 
+  pre{
+    margin-top:40px;
+  }
+  article#description{
+    margin:30px 0px 50px 0;
+  }
+  #links{
+    text-align:left;
+  }
+  h2{
+    font-size:1.2em;
+  }
+  #links img{
+    float:left;
+    margin:0px;
+    padding:0px;
+    height:auto;
+  }
+  .a-link p{
+    text-align:left;
+  }
+  .purchase-links{
+    display:block;
+    margin-bottom:0px;
+  }
+  
+  #contact{
+    margin-top:20px;
+  }
 }
